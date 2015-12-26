@@ -1,0 +1,64 @@
+body { font: 12px Arial;}
+
+path { 
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+#mcircle {
+    stroke: steelblue;
+    fill: red;
+}
+.title {
+    position: relative;
+    margin-left: 480px;
+}
+
+.mousetrack {
+    fill: none;
+    pointer-events: all;
+}
+#selectBatter {
+    position: relative;
+    margin-left: 900px;
+    margin-top:  -40px;
+}
+#AB {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#HR {
+    position: relative;
+    margin-left: 425px;
+    margin-top: -200px;
+}
+#RBI {
+    position: relative;
+    margin-left: 850px;
+    margin-top: -200px;
+}
+#oppH {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#oppHR {
+    position: relative;
+    margin-left: 425px;
+    margin-top: -200px;
+}
+#oppRBI {
+    position: relative;
+    margin-left: 850px;
+    margin-top: -200px;
+}
